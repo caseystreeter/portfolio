@@ -431,12 +431,11 @@ section {
 }
 
 .about-container .left-about {
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
 
 .about-container .left-about p {
   line-height: 2rem;
-  padding: 1rem;
   color: var(--color-grey-1);
 }
 
