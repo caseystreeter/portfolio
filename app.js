@@ -48,7 +48,8 @@ function navToLinkedIn() {
 }
 
 function resetSubmit() {
-    document.getElementById("contact-form").reset();
+    document.getElementById("contactForm").reset();
+    document.getElementById('contactForm').submit();
 }
 
 
