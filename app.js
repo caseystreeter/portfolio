@@ -47,6 +47,10 @@ function navToLinkedIn() {
     window.open("https://www.linkedin.com/in/cstreet14/", "_blank").focus();
 }
 
+function resetSubmit() {
+    document.getElementById("contact-form").reset();
+}
+
 
 
 PageTransitions();
