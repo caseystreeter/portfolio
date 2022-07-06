@@ -405,6 +405,8 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  line-height: 2.5;
+  padding-left: 2.5rem;
 }
 
 .about-container .right-about .about-item .abt-text .large-text {
@@ -1031,6 +1033,7 @@ section {
   font-weight: 600;
   position: relative;
   border: 1px solid var(--color-secondary);
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1041,6 +1044,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  padding: 10px;
 }
 
 .submit-button .submit-text {
@@ -1059,12 +1063,12 @@ section {
   z-index: -1;
 }
 
-.submit-button :hover {
+.submit-button:hover {
   -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
 }
 
-.submit-button :hover::before {
+.submit-button:hover::before {
   width: 100%;
   height: 100%;
   background-color: var(--color-secondary);
