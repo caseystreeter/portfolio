@@ -49,7 +49,7 @@ function navToLinkedIn() {
 
 function resetSubmit() {
     document.getElementById("contactForm").reset();
-    document.getElementById('contactForm').submit();
+    document.getElementById("contactForm").submit();
 }
 
 
