@@ -20,6 +20,7 @@
   --color-grey-6: #12181b;
   --form-bg: #fff;
   --form-color: #000;
+  --submit-click: #0f8641;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   font-size: 14px;
@@ -38,6 +39,7 @@
   --color-grey-5: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --form-bg: rgb(164, 177, 182);
+  --submit-click: #108a90;
   --color-grey-6: #12181b;
 }
 
@@ -1032,6 +1034,7 @@ section {
   color: inherit;
   font-weight: 600;
   position: relative;
+  left: 11rem;
   border: 1px solid var(--color-secondary);
   background-color: transparent;
   display: -webkit-box;
@@ -1058,14 +1061,14 @@ section {
   right: 0;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: all .4s ease-out;
-  transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
   z-index: -1;
 }
 
 .submit-button:hover {
-  -webkit-transition: all .4s ease-out;
-  transition: all .4s ease-out;
+  -webkit-transition: all;
+  transition: all;
 }
 
 .submit-button:hover::before {
@@ -1074,8 +1077,15 @@ section {
   background-color: var(--color-secondary);
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: all .4s ease-out;
-  transition: all .4s ease-out;
+  -webkit-transition: all;
+  transition: all;
+}
+
+.submit-button:active {
+  opacity: 1;
+  -webkit-transition: all;
+  transition: all;
+  background-color: var(--submit-click);
 }
 
 .main-title {
