@@ -1166,4 +1166,10 @@ section {
     height: 50px;
   }
 }
+
+@media screen and (min-width: 1681) {
+  .right-header {
+    padding-right: 3rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
