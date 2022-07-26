@@ -605,6 +605,11 @@ section{
     }
 }
 
+.prod-preview-title{
+    display: flex;
+    justify-content: center;
+}
+
 .portfolio-item:hover .hover-items{
     opacity: 1;
     transform: scale(1);

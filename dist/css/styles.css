@@ -726,6 +726,15 @@ section {
   color: var(--color-primary);
 }
 
+.prod-preview-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .portfolio-item:hover .hover-items {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1169,7 +1178,10 @@ section {
 
 @media screen and (min-width: 1681) {
   .right-header {
-    padding-right: 3rem;
+    padding-right: 5rem;
+  }
+  .submit-button {
+    padding-left: 3rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
