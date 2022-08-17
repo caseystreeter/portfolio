@@ -608,6 +608,13 @@ section{
 .prod-preview-title{
     display: flex;
     justify-content: center;
+    padding-bottom: 7px;
+}
+
+.qr-code-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
 }
 
 .portfolio-item:hover .hover-items{
