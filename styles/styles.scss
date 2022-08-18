@@ -617,6 +617,12 @@ section{
     padding-bottom: 7px;
 }
 
+.rating-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+
 .portfolio-item:hover .hover-items{
     opacity: 1;
     transform: scale(1);
